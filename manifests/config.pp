@@ -26,3 +26,4 @@ class gcp_condor_pool_manager {
     group   => 'root',
     mode    => '0644',
   }
+}

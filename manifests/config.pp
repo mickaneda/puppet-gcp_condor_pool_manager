@@ -22,7 +22,6 @@ class gcp_condor_pool_manager {
 
   file { '/etc/gcpm.conf':
     content => template("${module_name}/gcpm.conf.erb"),
-    require => Package['gcp_condor_pool_manager'],
     owner   => 'root',
     group   => 'root',
     mode    => '0644',

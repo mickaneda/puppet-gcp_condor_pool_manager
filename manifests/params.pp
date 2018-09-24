@@ -10,7 +10,7 @@ class gcp_condor_pool_manager::params {
   $preemptible = lookup('preemptible', { default_value => '1'})
   $off_timer   = lookup('off_timer',   { default_value => '600'})
   $zones       = lookup('zones',       { default_value => 'asia-northeast1-b'})
-  $tag         = lookup('tag',         { default_value => ''})
+  $network_tag = lookup('network_tag', { default_value => ''})
   $reuse       = lookup('reuse',       { default_value => '0'})
   $interval    = lookup('interval',    { default_value => '10'})
   $head_info   = lookup('head_info',   { default_value => 'gcp'})

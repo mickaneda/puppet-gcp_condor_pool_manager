@@ -1,4 +1,4 @@
-class gcp_condor_pool_manager {
+class gcp_condor_pool_manager::config {
   $core        = $gcp_condor_pool_manager::params::core
   $mem         = $gcp_condor_pool_manager::params::mem
   $disk        = $gcp_condor_pool_manager::params::disk
@@ -10,7 +10,7 @@ class gcp_condor_pool_manager {
   $preemptible = $gcp_condor_pool_manager::params::preemptible
   $off_timer   = $gcp_condor_pool_manager::params::off_timer
   $zones       = $gcp_condor_pool_manager::params::zones
-  $tag         = $gcp_condor_pool_manager::params::tag
+  $network_tag = $gcp_condor_pool_manager::params::network_tag
   $reuse       = $gcp_condor_pool_manager::params::reuse
   $interval    = $gcp_condor_pool_manager::params::interval
   $head_info   = $gcp_condor_pool_manager::params::head_info

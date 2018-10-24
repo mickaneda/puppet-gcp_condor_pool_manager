@@ -1,11 +1,14 @@
 # Number of cores (comma separated array)
 core <%= @core %>
 
-# Memory for each core (comma separated array)
+# Memory for each core (MB, comma separated array)
 mem <%= @mem %>
 
 # Boot disk size for each core (GB, comma separated array)
 disk <%= @disk %>
+
+# # Set non-zero for each core if you wish to have some idle nodes, to avoid start up time (comma separated array)
+idle <%= @idle %>
 
 # Max for each core (comma separated array)
 max <%= @max %>

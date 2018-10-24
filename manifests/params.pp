@@ -2,6 +2,7 @@ class gcp_condor_pool_manager::params {
   $core        = lookup('core',        { default_value => '1'})
   $mem         = lookup('mem',         { default_value => '3750'})
   $disk        = lookup('disk',        { default_value => '50'})
+  $idle        = lookup('idle',        { default_value => '0'})
   $max         = lookup('max',         { default_value => '10'})
   $max_cores   = lookup('max_cores',   { default_value => '10'})
   $static      = lookup('static',      { default_value => ''})

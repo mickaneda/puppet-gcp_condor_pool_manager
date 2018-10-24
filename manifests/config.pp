@@ -2,6 +2,7 @@ class gcp_condor_pool_manager::config {
   $core        = $gcp_condor_pool_manager::core
   $mem         = $gcp_condor_pool_manager::mem
   $disk        = $gcp_condor_pool_manager::disk
+  $idle        = $gcp_condor_pool_manager::idle
   $max         = $gcp_condor_pool_manager::max
   $max_cores   = $gcp_condor_pool_manager::max_cores
   $static      = $gcp_condor_pool_manager::static

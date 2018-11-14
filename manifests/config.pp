@@ -15,9 +15,11 @@ class gcp_condor_pool_manager::config {
   $reuse       = $gcp_condor_pool_manager::reuse
   $interval    = $gcp_condor_pool_manager::interval
   $head_info   = $gcp_condor_pool_manager::head_info
+  $port        = $gcp_condor_pool_manager::port
   $bucket      = $gcp_condor_pool_manager::bucket
   $admin       = $gcp_condor_pool_manager::admin
   $owner       = $gcp_condor_pool_manager::owner
+  $bg_cmd      = $gcp_condor_pool_manager::bg_cmd
   $log_level   = $gcp_condor_pool_manager::log_level
   $gcloud      = $gcp_condor_pool_manager::gcloud
 

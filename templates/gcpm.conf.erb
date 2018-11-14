@@ -51,6 +51,9 @@ interval <%= @interval %>
 # Otherwise the value itself is passed to worker nodes
 head_info <%= @head_info %>
 
+# COLLECTOR_PORT of HTCondor
+port <%= @port %>
+
 # Bucket name for Google Cloud Strage, where pool_password file is stored
 # This must be unique in entire GCP
 bucket <%= @bucket %>
@@ -60,6 +63,9 @@ admin <%= @admin %>
 
 # Owner for worker nodes' HTCondor
 owner <%= @owner %>
+
+# If set 1, execute instances delete/create command in backgorund (0 to execute foreground)
+bg_cmd <%= @bg_cmd %>
 
 # Log level (DEBUG, INFO, NOTICE, WARNING, ERROR)
 log_level <%= @log_level %>

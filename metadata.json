@@ -1,0 +1,19 @@
+{
+  "name": "puppet-gcp_condor_pool_manager",
+  "version": "0.0.2",
+  "author": "Michiru Kaneda",
+  "summary": "Puppet module for gcp_condor_pool_manager (gcpm)",
+  "license": "MIT",
+  "source": "https://github.com/mickaneda/puppet-gcp_condor_pool_manager",
+  "description": "Puppet module for gcp_condor_pool_manager (gcpm)",
+  "issues_url": "https://github.com/mickaneda/puppet-gcp_condor_pool_manager/issues",
+  "tags": [
+  ],
+  "project_page": "https://github.com/mickaneda/puppet-gcp_condor_pool_manager",
+  "requirements": [
+  ],
+  "operatingsystem_support": [
+  ],
+  "dependencies": [
+  ]
+}
